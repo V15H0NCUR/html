@@ -1,0 +1,44 @@
+<html>
+<head>
+
+
+</head>
+<body>
+    <script>
+    var osoba_1=
+    {
+        nazwisko:'Kowalski J',
+        imie:'P Jan',
+        zawod:'Piekarz',
+        wyswietl:function()
+        {
+            document.write(this.nazwisko+''+this.imie+' '+this.zawod)
+        }
+    }
+    var tiktoker=
+    {
+        hearts:'9821984143 ',
+        likes:'75475453 ',
+        views:'53216262653 ',
+        fans:'25734234253 ',
+        wyswietl1:function()
+        {
+            document.write("Serducha: "+this.hearts+'Lapki: '+this.likes+'Wyswietlenia: '+this.views+'Fani: '+this.fans)
+        },
+        zarobki:function()
+        {
+            document.write("Zarobki:"+this.fans/1000)
+        }
+        ,
+        zarobkirok:function()
+        {
+            document.write("Zarobki roczne: "+(this.fans/1000)*365)
+        }
+    }
+    </script>
+    <input type="button" onclick="osoba_1.wyswietl()" value="pokaz confirm box" />
+    <input type="button" onclick="tiktoker.wyswietl1()" value="tiktoker" />
+    <input type="button" onclick="tiktoker.zarobki()" value="zarobki" />
+    <input type="button" onclick="tiktoker.zarobkirok()" value="roczne zarobki" />
+</body>
+</html>
