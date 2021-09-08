@@ -1,0 +1,57 @@
+<html>
+<head>
+
+
+
+
+
+
+
+</head>
+<body>
+<h1><p align="right">Raczkowski</p></h1>
+<button type="button" onclick="silnia()">Silnia</button>
+<button type="button" onclick="fibo()">Fibonacci</button>
+<button type="button" onclick="sto()">100 losowych liczb</button>
+
+
+
+<script>
+             function silnia(){
+ var n = prompt("Wpisz liczbe:", "");
+var i = 1;
+var s = 1;
+while (i <= n) s *= i++;
+alert(n + ' Silnia z tej liczby to = ' + s);
+             }
+</script> 
+
+
+<script>
+    function fibo(){
+
+    var n=prompt("Wpisz ilosc liczb do pokazania");
+
+fibo[0]=1;
+fibo[1]=1;
+document.write(fibo[0],"<br/>",fibo[1],"<br/>");
+
+for(i=0;i<n-2;i++) {
+    fibo[i+2]=fibo[i+1]+fibo[i];
+    document.write(fibo[i+2],"<br/>");
+}
+
+}
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,51 @@
+<html>
+<head>
+    <script type="text/javascript">
+    function okno_zamknij()
+    {
+        window.close()
+    }
+    </script>
+</head>
+<body>
+kaczor
+<img src="obrazek.jpg"/>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+<button type="button" onclick="jeden()">jeden obrazek</button>
+<button type="button" onclick="dwa()">drugi obrazek</button>
+<button type="button" onclick="trzy()">trzeci obrazek</button>
+<button type="button" onclick="cztery()">czwarty obrazek</button>
+
+<script type="text/javascript">
+    function jeden()
+    {
+        window.open("zad4.html","okienko1","toolbar=no,directories=no,menubar=no,height=400,width=400,top=0,left=0");
+        
+    }
+    </script>
+    
+    <script type="text/javascript">
+        function dwa()
+        {
+            window.open("zad5.html","okienko2","toolbar=no,directories=no,menubar=no,height=800,width=800,top=0,left=400");
+        }
+        </script>
+
+<script type="text/javascript">
+    function trzy()
+    {
+        window.open("zad6.html","okienko3","toolbar=no,directories=no,menubar=no,height=800,width=800,top=0,left=1200");
+    }
+    </script>
+
+<script type="text/javascript">
+    function cztery()
+    {
+        window.open("zad7.html","okienko4","toolbar=no,directories=no,menubar=no,height=400,width=400,top=1000,left=0");
+    }
+    </script>
+</body>
+
+
+
+</html>
