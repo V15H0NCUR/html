@@ -1,0 +1,49 @@
+.gora {
+  position: absolute;
+  width: 99%;
+  height: 10%;
+
+ 
+  background: #034C8C
+}
+.lewo {
+  top: 15%;
+  left:10%;
+  width: 12%;
+  height: 90%;
+  float: left;
+  background-color: #36B1BF
+}
+.srodek {
+  
+  top: 15%;
+  left:50%;
+  width: 88%;
+height: 90%;
+  float: right;
+  background-color: #30BFBF
+}
+
+
+. {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+  
+  
